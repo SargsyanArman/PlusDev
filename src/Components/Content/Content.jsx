@@ -1,6 +1,7 @@
 import React from 'react'
 import SidebarLeft from './SidebarL/SidebarLeft'
 import MainContent from './MainContent/MainContent'
+import SidebarR from './SidebarR/SidebarR'
 
 const getSidebarItemIcon = [
     <i className="fa-solid fa-house sidebar-li"></i>,
@@ -20,9 +21,10 @@ const getSidebarItemParagraph = [
 
 const Content = () => {
   return (
-      <div className='flex bg-[#F9F8F8] w-full mt-6 h-[611px] overflow-y-auto max-h-[100vh-122px]'>
+      <div className='flex bg-[#F9F8F8] w-full mt-6 h-[605px] overflow-y-auto max-h-[100vh-122px]'>
           <SidebarLeft icon={getSidebarItemIcon} text={getSidebarItemParagraph}/>
           <MainContent />
+          <SidebarR />
       </div>
   )
 }

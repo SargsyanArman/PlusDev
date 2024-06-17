@@ -8,7 +8,7 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
     text-decoration: none;
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
   }
 
   .icon-header {
@@ -104,4 +104,26 @@
   background-color: #818cf8;
   color: white;
   cursor: pointer;
+}
+
+.sidebar-right-btnRight {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.sidebar-right::-webkit-scrollbar {
+  width: 4px; 
+}
+
+.sidebar-right::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.sidebar-right::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.sidebar-right::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

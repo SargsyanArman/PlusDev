@@ -21,6 +21,7 @@ export default {
       height: {
         '500px': '500px',
         '60px': '60px',
+        '50px': '50px,'
       },
       transformOrigin: {
         'origin-center2x': 'center center',
