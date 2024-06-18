@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderMainContent from './HeaderMainContent/HeaderMainContent'
 import BodyMainContent from './BodyMainContent/BodyMainContent'
 import Authors from './Authors/Authors'
+import Questions from './Questions/Questions'
 
 const MainContent = () => {
   return (
@@ -9,6 +10,7 @@ const MainContent = () => {
         <HeaderMainContent />
         <BodyMainContent />
         <Authors />
+        <Questions />
     </div>
   )
 }
